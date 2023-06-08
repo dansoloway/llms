@@ -2,7 +2,6 @@
 v: 0
 micros:
   - name: llms2
-    src: ./
+    src: .
     engine: python3.9
-    primary: true
-+   run: uvicorn main:app
+    run: uvicorn main:app
